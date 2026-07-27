@@ -1,7 +1,18 @@
 aid: icardioai
 name: Icardio.AI
-description: Icardio.AI is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Icardio.AI (iCardio.ai) builds artificial-intelligence software that automates
+  the interpretation of cardiac ultrasound (echocardiography). Its FDA 510(k)-cleared
+  products include EchoMeasure, which identifies cardiac phases and automatically
+  measures anatomical structures to produce comprehensive echo reports, and
+  CardioVision, which automatically detects aortic stenosis and structural heart
+  disease from ultrasound clips (also granted FDA Breakthrough Device Designation).
+  Additional tooling includes EchoCheck image-quality and view classification,
+  quantitative linear and volumetric measurements, qualitative structural-disease
+  analysis, and EchoGPT image-to-text description. The company trains on a database
+  of 200M+ echocardiography images and partners with ultrasound manufacturers,
+  PACS vendors, and healthcare systems, offering API integration into enterprise
+  PACS workflows. Icardio.AI is a Techstars portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/icardioai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/606619d2b787374f8f805ff3/608b27d902206cc31d3f4442_icardio-logo.svg
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Machine Learning
+- Cardiology
+- Echocardiography
+- Medical Imaging
+- Ultrasound
+- FDA Cleared
+- Clinical Decision Support
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +53,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/icardioai-domain-security.yml
 - type: Website
   url: https://icardio.ai/
+- type: SignUp
+  url: https://icardio.ai/sign-up
+- type: Login
+  url: https://app.icardio.ai/login
+- type: Support
+  url: https://icardio.ai/contact-us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/19196888
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
