@@ -50,7 +50,7 @@ tags:
 - Company
 - Healthcare
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Cardiology
 - Echocardiography
 - Medical Imaging
@@ -68,6 +68,7 @@ tags_raw:
 - Ultrasound
 - FDA Cleared
 - Clinical Decision Support
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
